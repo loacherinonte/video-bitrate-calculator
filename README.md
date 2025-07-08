@@ -35,7 +35,7 @@ Why:
 
 ## 📥 Download
 
-You can download the macOS app here:
+You can download the app for macOS only (at the moment) here:
 
 👉 [Download VideoBitrateCalculator.dmg](https://github.com/loacherinonte/Video-Bitrate-Calculator/releases/latest)
 
