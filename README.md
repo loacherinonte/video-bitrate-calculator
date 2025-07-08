@@ -50,4 +50,4 @@ Once downloaded:
 If you want to run the script manually:
 
 ```bash
-python3 VideoBitrateCalculator.py
+python3 Video Bitrate Calculator.py.py
