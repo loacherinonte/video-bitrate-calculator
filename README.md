@@ -1,3 +1,5 @@
+![Anteprima dell'app](https://github.com/loacherinonte/video-bitrate-calculator/raw/main/vbc.png)
+
 # 🎥 Video Bitrate Calculator
 
 **Video Bitrate Calculator** is a simple and lightweight macOS app that helps you calculate the ideal video bitrate in **kilobits per second (kbps)** based on your **target file size** (in MB) and **video duration** (in minutes and seconds).
