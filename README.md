@@ -2,7 +2,7 @@
 
 # 🎥 Video Bitrate Calculator
 
-![download](https://github.com/loacherinonte/video-bitrate-calculator/releases)
+[ ⬇ DOWNLOAD ](https://github.com/loacherinonte/video-bitrate-calculator/releases)
 
 # 🇺🇸
 Video Bitrate Calculator is a simple desktop app that helps you calculate the optimal video bitrate based on the desired file size, video duration, and audio bitrate. It features a clean graphical interface, multilingual support (English and Italian), and allows you to select common resolutions like 1080p, 2K, 4K and more. The app is available for both Windows and macOS, with a one-click installer for each platform. Developed by Rino Caccamo.
