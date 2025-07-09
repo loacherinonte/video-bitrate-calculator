@@ -2,54 +2,50 @@
 
 # 🎥 Video Bitrate Calculator
 
-**Video Bitrate Calculator** is a simple and lightweight macOS app that helps you calculate the ideal video bitrate in **kilobits per second (kbps)** based on your **target file size** (in MB) and **video duration** (in minutes and seconds).
+# 🇺🇸
+Video Bitrate Calculator is a simple desktop app that helps you calculate the optimal video bitrate based on the desired file size, video duration, and audio bitrate. It features a clean graphical interface, multilingual support (English and Italian), and allows you to select common resolutions like 1080p, 2K, 4K and more. The app is available for both Windows and macOS, with a one-click installer for each platform. Developed by Rino Caccamo.
+
+# The bitrate (in kilobits per second, kbps) is calculated by dividing the file size (in bits) by the duration (in seconds):
+
+Bitrate (kbps) = Size (bits) / Duration (seconds)
+
+# Since file sizes are usually measured in megabytes (MB), convert MB to kilobits by multiplying:
+
+Size (bits) = Desired size in MB × 1024 (KB per MB) × 8 (kilobits per KB)
+
+# Example:
+
+For a 1 MB file with duration 1 second:
+
+1 MB × 1024 × 8 = 8192 kilobits / 1 second = 8192 kbps
 
 ---
 
-## ✏️ How the Bitrate is Calculated
+# 🇮🇹 
+Video Bitrate Calculator è una semplice applicazione desktop che ti aiuta a calcolare il bitrate video ottimale in base alla dimensione desiderata del file, alla durata del video e al bitrate audio. Ha un'interfaccia grafica pulita, supporto multilingua (inglese e italiano) e permette di selezionare risoluzioni comuni come 1080p, 2K, 4K e altre. L'app è disponibile sia per Windows che per macOS, con un installer a un solo clic per ogni piattaforma. Sviluppata da Rino Caccamo.
 
-The app uses the following formula:
+# Il bitrate (in kilobit al secondo, kbps) si calcola dividendo la dimensione del file (in bit) per la durata (in secondi):
 
-Why:
-- 1 MB = 1024 KB
-- 1 KB = 8 kilobits
-- Bitrate is measured in **kbps** (kilobits per second)
+Bitrate (kbps) = Dimensione (bit) / Durata (secondi)
 
-📌 Example:  
-- File size: 50 MB  
-- Duration: 10 minutes → 600 seconds  
-- Calculation:  
-  `(50 × 1024 × 8) / 600 = 683 kbps,`
-  ` without audio (128 kbps) = 555 kbps`
+# Poiché la dimensione del file è solitamente espressa in megabyte (MB), si converte MB in kilobit moltiplicando:
 
----
+Dimensione (bit) = Dimensione desiderata in MB × 1024 (KB per MB) × 8 (kilobit per KB)
 
-## 💻 How to Use
+# Esempio:
 
-1. Enter the **desired file size** in megabytes (MB)
-2. Enter the **video duration** (in minutes and seconds)
-3. Click the **Calculate** button
-4. The app will show the required **bitrate** in kbps
+Per un file di 1 MB e durata 1 secondo:
+
+1 MB × 1024 × 8 = 8192 kilobit / 1 secondo = 8192 kbps
 
 ---
 
-## 📥 Download
+## ▶️ 🇺🇸 Run from Python source
 
-You can download the app for macOS only (at the moment) here:
+To run the app directly from the Python source file (`Video Bitrate Calculator.py`), make sure you have Python 3 installed with Tkinter and Pillow. Then open a terminal or command prompt, navigate to the folder where the file is saved, and run:
 
-👉 [Download VideoBitrateCalculator.dmg](https://github.com/loacherinonte/Video-Bitrate-Calculator/releases/latest)
-
-Once downloaded:
-- Double-click the `.dmg`
-- Drag the app into the **Applications** folder
-
----
-
-## ⚙️ For Developers
-
-### ▶️ Run the Python script
-
-If you want to run the script manually:
+## ▶️ 🇮🇹 Esegui dal codice sorgente Python
+Per eseguire l'app direttamente dal file sorgente Python (`Video Bitrate Calculator.py`), assicurati di aver installato Python 3 con Tkinter e Pillow. Quindi apri un terminale o un prompt dei comandi, vai alla cartella in cui è salvato il file ed esegui:
 
 ```bash
-python3 Video Bitrate Calculator.py
+python "Video Bitrate Calculator.py"
