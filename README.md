@@ -1,5 +1,13 @@
 # 🎥 Video Bitrate Calculator
 
+## ☕ Support the Project / Supporta il progetto
+
+🇺🇸 If you like this project, consider making a donation via PayPal:
+
+🇮🇹 Se ti piace questo progetto, considera una donazione su PayPal:
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.me/rinocaccamoleafox)
+
 [ ⬇ DOWNLOAD ](https://github.com/loacherinonte/video-bitrate-calculator/releases)
 
 ![Anteprima dell'app](https://github.com/loacherinonte/video-bitrate-calculator/raw/main/vbc.png)<p float="left">
